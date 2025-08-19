@@ -1,11 +1,4 @@
-/* 全体の背景とフォント設定 */
-body {
-  font-family: "Arial", sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
-  line-height: 1.6;
-  padding: 20px;
-}
+
 
 /* ヘッダータグの装飾 */
 h1 {
