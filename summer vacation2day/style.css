@@ -1,4 +1,4 @@
-/*背景画像の指定*/
+
 body {
   background-image: url("https://aomaterial.com/wp-content/uploads/2023/06/%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%83%A2%E3%83%81%E3%83%BC%E3%83%95%E8%83%8C%E6%99%AF4-2048x1152.png");
   background-size: cover;
@@ -103,24 +103,4 @@ pre {
 code {
   font-family: monospace;
   color: #d63384;
-}
-
-/*ジャンプ機能*/
-
-a {
-  color: blue;
-  text-decoration: underline;
-}
-
-a:hover {
-  color: red;
-}
-
-
-
-@keyframes fadein {
-  
-0%{opacity: 0;}
-100%{opacity: 1;}
-
 }
