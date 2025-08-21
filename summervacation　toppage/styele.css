@@ -1,6 +1,40 @@
 body{
 
-font font-family: sans serife;
+font font-family: sans serif;
+margin 0;
+padding 0;
 
+}
+
+header{
+    background color: #87CEEB;
+    pading 20px;
+    text align :center;
+    
+}
+
+nav ul{
+list-style: none;
+padding:0;
+
+}
+
+navli{
+display: inline;
+mardgin: 0 10px;
+
+}
+
+main{
+margin: 20px;
+
+}
+
+
+footer {
+background-color: aqua;
+color blue;
+text align: center;
+padding:10px;
 
 }
