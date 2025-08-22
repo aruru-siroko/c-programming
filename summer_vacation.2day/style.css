@@ -104,3 +104,23 @@ code {
   font-family: monospace;
   color: #d63384;
 }
+
+/*ジャンプ機能*/
+
+a {
+  color: blue;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: red;
+}
+
+
+
+@keyframes fadein {
+  
+0%{opacity: 0;}
+100%{opacity: 1;}
+
+}
