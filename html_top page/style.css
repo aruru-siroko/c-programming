@@ -1,3 +1,4 @@
+@charset "UTF-8";
 
 body {
   background-image: url("https://aomaterial.com/wp-content/uploads/2023/06/%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%83%A2%E3%83%81%E3%83%BC%E3%83%95%E8%83%8C%E6%99%AF4-2048x1152.png");
@@ -131,8 +132,155 @@ a:hover {
 body {
     margin: 0 0 0 0;
     padding:0 0 0 0;
-    background-color: ;
+    background-color:azure  #e0ffff;
 
+}
+
+wrapper{
+
+  margin: 0 auot 0 auto;
+width: 1280px;
+
+}
+
+h1{
+
+color:#66aaff ;
+font-size: 26px;
+border-bottom: 1px solid #e0ffff;
+margin: 20px 0px 30px 0px;
+  padding: 10px 10px 10px 20px;
+}
+
+a:link{
+
+color:#003366;
+text-decoration: none;
+
+}
+
+a:visited{
+
+color: #609;
+
+}
+
+a:hover{
+
+color:#003366;
+text-decoration: underline;
+
+}
+
+a:active{
+color:#003366;
+
+}
+
+/*---ウェブページ全体に適用---nav---*/
+
+#nav li{
+
+display: inline;
+list-style-type: none;
+padding-right: 30px;
+
+}
+
+#nav{
+margin:0 0 0 ;
+padding: 10px 30px 10px 30px;
+background-color: #003366;
+
+}
+
+#nav li a:link{
+color: #eee;
+text-decoration: none;
+
+}
+
+#nav li a:visited{
+color:#eee;
+text-decoration: none;
+}
+
+#nav li a:hover{
+color:#eee;
+text-decoration: underline;
 
 
 }
+
+#nav li :active{
+color:#eee;
+text-decoration: none;
+
+}
+
+
+#footer{
+text-align: center;
+border-top:1px solid #eee;
+margin-top: 30px;
+padding:20px 0 20pxpx 0;
+color: #e0ffff;
+}
+
+
+/*---index.html---*/
+info_item{
+  padding: 3px;
+  margin: 0 0 0 0;
+}
+
+/*---open-close.html*/
+
+.float img{
+float:left;
+padding-right: lem;
+
+}
+
+.clear{
+clear: both;
+
+}
+table.info{
+border-collapse: collapse;
+border: 1px solid #66aaff;
+
+}
+
+table.info th, table.info td {
+padding: 8px 8px 8px 8px ;
+border: 1px solid #003366;
+text-align: left;
+vertical-align: middle;
+}
+
+table.info th{
+background-color: #0066cc;
+color: #66aaff;
+
+}
+
+
+      .container{
+        width:600px;
+        height: 600px;
+        position: relative;
+      }
+      .container img{
+        width:100%;
+      }
+      p{
+        position: absolute;
+        top:0;
+        left:0;
+        font-size:30px;
+        color: #e0ffff;
+        padding:0;
+        margin:0;
+      }
+
